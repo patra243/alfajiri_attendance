@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/dwn"
+    android:orientation="vertical"
+    tools:context=".StudentAddActivity">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/merriweather"
+        android:gravity="center"
+        android:text="ADDING STUDENT"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#ACACAC"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtFirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/in_text"
+        android:fontFamily="@font/merriweather"
+        android:hint="Firstname"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtLastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/in_text"
+        android:fontFamily="@font/merriweather"
+        android:hint="Lastname"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtPhonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/in_text"
+        android:fontFamily="@font/merriweather"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtEmailaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/in_text"
+        android:fontFamily="@font/merriweather"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/in_text"
+        android:fontFamily="@font/merriweather"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#ACACAC"
+        android:text="Select Faculty"
+        android:fontFamily="@font/merriweather"
+        android:textSize="15sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerFac"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#ACACAC"
+        android:text="Select Department"
+        android:fontFamily="@font/merriweather"
+        android:textSize="15sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerDep"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnSubmit1"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/circle"
+        android:fontFamily="@font/merriweather"
+        android:text="Submit"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnCancel1"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/circle"
+        android:fontFamily="@font/merriweather"
+        android:text="Cancel"
+        android:textColor="@color/black" />
+
+
+
+
+</LinearLayout>
